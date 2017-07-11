@@ -10,7 +10,7 @@ class GitHub extends Component{
         user: {}
     }
 
-    this.fetchUserData()
+    this.fetchUserData(props)
     }
 
     fetchUserData = () => {
