@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import './GitHub.css'
 import {Route} from 'react-router-dom'
-import GithubUser from './GitHubUser.js'
+import GitHubUser from './GitHubUser'
 
 class GitHub extends Component{
     state = {
