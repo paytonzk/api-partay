@@ -20,8 +20,16 @@ class GitHub extends Component{
     }
 
     render(){
+        const {user} = this.state
         return(
-            <div></div>
+            <div className="github-user">
+                <img src={user.avatar_url} alt="github user avatar"/>
+                <h2>{user.login}</h2>
+                <h3>Followers: {user.followers}</h3>
+                <h3>Following: {user.following}</h3>
+                <h3>Location: {user.location}</h3>
+                <a href={user.html_url} target="_">Link to {user.login}'s profile</a>
+            </div>
         )
     }
 }
