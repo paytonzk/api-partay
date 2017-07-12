@@ -33,8 +33,8 @@ class App extends Component {
         <Switch>
           <Route path='/github' component={Github} />
           <Route path='/nasa' component={Nasa} />
-          <Route path='/googlemaps' component={GoogleMaps} />
           <Route path='/homework' component={Homework} />
+          <Route path='/googlemaps' component={GoogleMaps} />
           <Route render={() => <p>To get started, click one of the links above</p>} />
         </Switch>
       </div>

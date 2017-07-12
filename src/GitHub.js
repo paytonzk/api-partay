@@ -30,6 +30,7 @@ class Github extends Component {
           <div>
             <input
               type="text"
+              placeholder="Enter Github Username"
               value={this.state.username}
               onChange={this.handleChange}
             />
